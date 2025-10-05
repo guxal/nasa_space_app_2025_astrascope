@@ -10,6 +10,7 @@ import Metrics from "./pages/Metrics";
 import Scan from "./pages/Scan";
 import Tuning from "./pages/Tuning";
 import Learning from "./pages/Learning";
+import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -27,6 +28,7 @@ const App = () => (
             <Route path="/" element={<Classify />} />
             <Route path="/metrics" element={<Metrics />} />
             <Route path="/learning" element={<Learning />} />
+            <Route path="/about" element={<About />} />
             {/* <Route path="/scan" element={<Scan />} /> */}
             <Route path="/tuning" element={<Tuning />} />
             <Route path="*" element={<NotFound />} />

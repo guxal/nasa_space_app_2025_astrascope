@@ -9,7 +9,7 @@ const Navbar = () => {
           <img src={logo} alt="Exoplanet Logo" className="h-10 w-10" />
           <div className="flex items-center gap-2">
             <h1 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              Exoplanet AI Classifier
+              AstraScope - Exoplanet AI Classifier
             </h1>
             <Sparkles className="h-5 w-5 text-primary animate-pulse-glow" />
           </div>

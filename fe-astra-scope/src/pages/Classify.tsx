@@ -107,6 +107,24 @@ const Classify = () => {
 
   return (
     <div className="container mx-auto px-4 py-8 space-y-6 animate-fade-in">
+
+            {/* About Us Section */}
+      <Card className="border-border bg-gradient-card">
+        <CardContent className="pt-6">
+          <h2 className="text-xl font-semibold text-foreground mb-2">About Exoplanet AI Classifier</h2>
+          <p className="text-muted-foreground mb-3">
+            We leverage cutting-edge AI and machine learning to analyze NASA mission data, helping discover and classify exoplanets with unprecedented accuracy. Our platform makes space exploration accessible to researchers and enthusiasts worldwide.
+          </p>
+          <a 
+            href="/about" 
+            className="text-primary hover:underline font-medium inline-flex items-center gap-1"
+          >
+            Learn more about our mission
+            <Sparkles className="h-4 w-4" />
+          </a>
+        </CardContent>
+      </Card>
+
       <div className="space-y-2">
         <h1 className="text-3xl font-bold flex items-center gap-2">
           <Upload className="h-8 w-8 text-primary" />
